@@ -1,6 +1,6 @@
 # react-native-dsphoto-module
 
-DSphoto Wrapper
+Native Photo Editor Wrapper
 
 ## Installation
 
