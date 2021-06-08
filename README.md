@@ -15,7 +15,12 @@ import DsphotoModule from "react-native-dsphoto-module";
 
 // ...
 
-const result = await DsphotoModule.multiply(3, 7);
+DsphotoModule.Edit(photo.path, (res) => {
+            console.log(`editor-path: ${res}`);
+          },
+          (error) => {
+            console.log(`action: ${error} `);
+          })
 ```
 
 ## Contributing
