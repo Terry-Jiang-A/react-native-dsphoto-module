@@ -1,7 +1,7 @@
 {
   "name": "react-native-dsphoto-module",
   "version": "0.1.0",
-  "description": "DSphoto Wrapper",
+  "description": "Image Editor",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -29,7 +29,10 @@
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "bootstrap": "yarn example && yarn && yarn pods",
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
+    "start": "npx react-native start"
   },
   "keywords": [
     "react-native",
